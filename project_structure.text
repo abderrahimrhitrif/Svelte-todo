@@ -1,3 +1,4 @@
+- .env
 - .gitignore
 - .npmrc
 - .svelte-kit
@@ -11,6 +12,7 @@
         - 1.js
         - 2.js
         - 3.js
+        - 4.js
     - root.svelte
     - server
       - internal.js
@@ -22,21 +24,26 @@
         - $types.d.ts
         - dashboard
           - $types.d.ts
+        - login
 - package-lock.json
 - package.json
+- project_structure.text
 - README.md
 - src
   - app.html
   - components
-    - Authenticate.svelte
+    - Auth.svelte
   - lib
-    - firebase.js
+    - firebase.client.js
     - index.js
   - routes
     - +layout.svelte
     - +page.svelte
     - dashboard
       - +page.svelte
+  - stores
+    - authStore.js
+    - todosStore.js
 - static
   - favicon.png
 - svelte.config.js
