@@ -1,0 +1,43 @@
+- .gitignore
+- .npmrc
+- .svelte-kit
+  - ambient.d.ts
+  - generated
+    - client
+      - app.js
+      - matchers.js
+      - nodes
+        - 0.js
+        - 1.js
+        - 2.js
+        - 3.js
+    - root.svelte
+    - server
+      - internal.js
+  - tsconfig.json
+  - types
+    - route_meta_data.json
+    - src
+      - routes
+        - $types.d.ts
+        - dashboard
+          - $types.d.ts
+- package-lock.json
+- package.json
+- README.md
+- src
+  - app.html
+  - components
+    - Authenticate.svelte
+  - lib
+    - firebase.js
+    - index.js
+  - routes
+    - +layout.svelte
+    - +page.svelte
+    - dashboard
+      - +page.svelte
+- static
+  - favicon.png
+- svelte.config.js
+- vite.config.js
